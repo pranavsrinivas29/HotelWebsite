@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #094375;
+	font-family: "Poppins", sans-serif;
+}
+
+.container{
+	margin: 20px 40px;
+	color: white;
+}
+.heading{
+	font-size: 60px;
+	color: white;
+}
+.heading span{
+	font-style: italic;
+	font-size: 30px;
+}
+.small-container{
+	max-width: 100%;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.profiles{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.profile{
+	flex-basis: 30%;
+	min-width: 250px;
+	transition: transform 0.5s;
+	text-align: center;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	color:#B0B0B0;
+	padding: 20px;;
+}
+
+.profile .profile-img{
+	height: 260px;
+	width: 260px;
+	border-radius: 50%;
+	filter: grayscale(100%);
+	cursor: pointer;
+}
+
+.profile:hover .profile-img{
+	filter: grayscale(0);
+}
+
+.nameofguy{
+	margin-top: 30px;
+	font-size: 35px; 
+}
+
+.profile h5{
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 3px;
+	color: #ccc;
+}
+
+.profile p{
+	font-size: 16px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+
+
+  
+
+
+
